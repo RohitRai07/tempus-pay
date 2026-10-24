@@ -16,15 +16,10 @@ Tempus Pay is a professional, production-quality fintech UAT mobile application 
 
 Since compiling Android applications requires the Android SDK and Gradle, the easiest way to generate your installable APK without installing heavy tools locally is using GitHub Actions:
 
-1. Create a new repository on GitHub named `tempus-pay`.
+1. Create a new empty repository on [GitHub](https://github.com) named `tempus-pay` under your username `RohitRai07`.
 2. Push this project folder to your repository:
    ```bash
-   git init
-   git add .
-   git commit -m "Initial commit - Tempus Pay UAT"
-   git remote add origin https://github.com/YOUR_USERNAME/tempus-pay.git
-   git branch -M main
    git push -u origin main
    ```
-3. Go to your repository on GitHub and click on the **Actions** tab.
+3. Go to your repository on GitHub (`https://github.com/RohitRai07/tempus-pay`) and click on the **Actions** tab.
 4. Once the build workflow completes successfully, download the **tempus-pay-debug** artifact zip, extract `app-debug.apk`, and install it on your Android phone!

@@ -1,0 +1,17 @@
+{
+  "name": "tempus-pay-uat",
+  "version": "1.0.19",
+  "description": "Tempus Pay - Fintech UAT Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fintech",
+    "tempus-pay",
+    "uat"
+  ],
+  "author": "Tempus Engineering Team",
+  "license": "MIT",
+  "dependencies": {}
+}

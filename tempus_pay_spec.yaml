@@ -1,0 +1,20 @@
+name: Tempus Pay UAT
+description: Tempus Pay Fintech UAT Application built from RBL CMS APK reverse-engineering.
+version: 1.0.19
+environment:
+  framework: Flutter
+  package: in.tempuspay.uat
+  credentials:
+    mobile: "9000000001"
+    otp: "123456"
+    mpin: "2580"
+  mock_gateway:
+    scenarios:
+      - success
+      - declined
+      - insufficient_funds
+      - cancelled
+      - timeout
+      - pending
+      - duplicate
+      - delayed
